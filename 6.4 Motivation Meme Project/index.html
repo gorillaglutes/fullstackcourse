@@ -14,3 +14,41 @@ But it must have the following features:
 6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
   https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
 -->
+<html>
+  <head>
+    <style>
+      html{
+        background-color: black;
+      }
+      div{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 100px;
+      }
+      #image{
+        border: 5px solid white;
+      }
+      #toptext{
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      #bottomtext{
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+        text-align: center;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div>
+      <img id="image" src="./assets/bingus.jpg"/>
+      <h1 id="toptext">bingus</h1>
+      <p id="bottomtext">I love him</p>
+    </div>
+  </body>
+</html>
